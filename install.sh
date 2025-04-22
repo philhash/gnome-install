@@ -16,6 +16,8 @@ cursor-size=38
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click=true
 EOF
+# Compile the schemas
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 #add vscodium gpg key
 wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
     | gpg --dearmor \
@@ -25,8 +27,6 @@ echo 'deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/vscodium-archive-keyri
     | sudo tee /etc/apt/sources.list.d/vscodium.list
 #install vscodium
 sudo apt update && sudo apt install codium
-# Compile the schemas
-sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 # Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 # in lieu of restarting the shell

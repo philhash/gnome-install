@@ -12,7 +12,7 @@ sudo sed -i '11,14s/^/#/' /etc/network/interfaces
 sudo tee /usr/share/glib-2.0/schemas/99_hidpi.gschema.override << EOF
 [org.gnome.desktop.interface]
 text-scaling-factor=1.5
-cursor-size=38
+cursor-size=36
 [org.gnome.desktop.peripherals.touchpad]
 tap-to-click=true
 EOF

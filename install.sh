@@ -27,9 +27,3 @@ echo 'deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/vscodium-archive-keyri
     | sudo tee /etc/apt/sources.list.d/vscodium.list
 #install vscodium
 sudo apt update && sudo apt install codium
-# Download and install nvm:
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
-# in lieu of restarting the shell
-\. "$HOME/.nvm/nvm.sh"
-# Download and install Node.js:
-nvm install 22

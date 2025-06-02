@@ -2,7 +2,7 @@ sudo apt install -y adb filezilla libxfce4ui-utils thunar xfce4-panel gnome-them
 	xfce4-pulseaudio-plugin blueman gnome-disk-utility xfce4-session xfce4-settings \
 	fonts-recommended xfconf xfdesktop4 xfwm4 thunar-volman xfce4-notifyd \
 	xfce4-power-manager mousepad ristretto thunar-archive-plugin vlc atril \
-	xfce4-clipman-plugin ibus-unikey gammastep timeshift git gh nodejs \
+	xfce4-clipman-plugin ibus-unikey gammastep timeshift gh nodejs \
 	xfce4-screenshooter xfce4-taskmanager xfce4-terminal xfce4-whiskermenu-plugin \
 	thunderbird flatpak gstreamer1.0-vaapi intel-media-va-driver-non-free \
 	network-manager-gnome i965-va-driver-shaders fastboot \

@@ -7,7 +7,7 @@ sudo apt install -y adb filezilla libxfce4ui-utils thunar xfce4-panel gnome-them
 	thunderbird flatpak gstreamer1.0-vaapi intel-media-va-driver-non-free \
 	network-manager-gnome i965-va-driver-shaders fastboot \
 	network-manager-openvpn-gnome firewall-config menulibre \
-	libavcodec-extra slick-greeter firefox-esr unrar \
+	libavcodec-extra slick-greeter firefox-esr unrar synaptic \
  	gvfs-backends papirus-icon-theme clamav clamtk xserver-xorg-video-intel-
 ##Add flathub repo
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo

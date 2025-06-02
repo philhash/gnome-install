@@ -5,7 +5,7 @@ sudo apt install -y adb filezilla libxfce4ui-utils thunar xfce4-panel gnome-them
 	xfce4-clipman-plugin ibus-unikey gammastep timeshift git gh nodejs \
 	xfce4-screenshooter xfce4-taskmanager xfce4-terminal xfce4-whiskermenu-plugin \
 	thunderbird flatpak gstreamer1.0-vaapi intel-media-va-driver-non-free \
-	network-manager-gnome i965-va-driver-shaders \
+	network-manager-gnome i965-va-driver-shaders fastboot \
 	network-manager-openvpn-gnome firewall-config menulibre \
 	libavcodec-extra slick-greeter firefox-esr unrar \
  	gvfs-backends papirus-icon-theme clamav clamtk xserver-xorg-video-intel-
